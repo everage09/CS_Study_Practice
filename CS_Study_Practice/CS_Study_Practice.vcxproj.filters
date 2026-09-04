@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\DesignPattern">
+      <UniqueIdentifier>{9b2c9094-450b-4e23-bff3-d821d84e04e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\OS">
+      <UniqueIdentifier>{d58584c2-ccbe-4faa-9b21-474db50fac2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DesignPattern">
+      <UniqueIdentifier>{c9656577-077f-4c5c-b3e2-10fcf475be4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OS">
+      <UniqueIdentifier>{805baff5-fe34-42db-a890-e22402662944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataStructure">
+      <UniqueIdentifier>{03fe85c8-5a6c-458a-8db5-4a4a5355706f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStructure">
+      <UniqueIdentifier>{9b724476-3fca-44f7-8d45-a70e3244ee9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sorting">
+      <UniqueIdentifier>{f9565acd-fc11-4e2c-afca-3d1ca9c38109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Sorting">
+      <UniqueIdentifier>{4568e401-a4bc-4662-b162-2d4d89e000a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Search">
+      <UniqueIdentifier>{3587e64a-e208-48f1-8ffa-7742db10e4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Search">
+      <UniqueIdentifier>{2ca1095f-01f1-44db-9948-73ec70d598c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStructure\Graph">
+      <UniqueIdentifier>{240f9753-33d1-45d9-8b92-a582d4a8137d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStructure\Tree">
+      <UniqueIdentifier>{5d48f86b-9c4b-47b2-8b66-787b0c3a82e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Recursion">
+      <UniqueIdentifier>{f9b59416-999f-4c50-96fb-8d812a7da80b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Singleton.h">
+      <Filter>헤더 파일\DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFactory.cpp">
+      <Filter>소스 파일\DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSingleton.cpp">
+      <Filter>소스 파일\DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLRUCache.cpp">
+      <Filter>소스 파일\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestNRUCache.cpp">
+      <Filter>소스 파일\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLinkedList.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStack.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueue.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQuickSort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBinarySearchRec.cpp">
+      <Filter>소스 파일\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBinaryTree.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHeap.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHeapSort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPTQ.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGraph.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSet.cpp">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="8QueensProblem.cpp">
+      <Filter>소스 파일\Recursion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>헤더 파일\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache.h">
+      <Filter>헤더 파일\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="NRUCache.h">
+      <Filter>헤더 파일\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="myStack.h">
+      <Filter>헤더 파일\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="myQueue.h">
+      <Filter>헤더 파일\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>헤더 파일\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchRecursive.h">
+      <Filter>헤더 파일\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeType.h">
+      <Filter>헤더 파일\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="myLinkedList.h">
+      <Filter>헤더 파일\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="myMatrixGraph.h">
+      <Filter>헤더 파일\DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="myGraphBFS.h">
+      <Filter>헤더 파일\DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="myGraphDFS.h">
+      <Filter>헤더 파일\DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphDistType.h">
+      <Filter>헤더 파일\DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="myBinarytTree.h">
+      <Filter>헤더 파일\DataStructure\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="myHeap.h">
+      <Filter>헤더 파일\DataStructure\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="myPriorityQueue.h">
+      <Filter>헤더 파일\DataStructure\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="mySet.h">
+      <Filter>헤더 파일\DataStructure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CS_Study_Practice.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
