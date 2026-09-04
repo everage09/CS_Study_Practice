@@ -1,10 +1,10 @@
-#include "myMatrixGraph.h"
-#include "myPriorityQueue.h"
-#include "myQueue.h"
-#include "myStack.h"
-#include "GraphDistType.h"
-#include "myGraphBFS.h"
-#include "myGraphDFS.h"
+#include "../headers/DataStructure/Graph/myMatrixGraph.h"
+#include "../headers/DataStructure/Tree/myPriorityQueue.h"
+#include "../headers/DataStructure/myQueue.h"
+#include "../headers/DataStructure/myStack.h"
+#include "../headers/DataStructure/Graph/GraphDistType.h"
+#include "../headers/DataStructure/Graph/myGraphBFS.h"
+#include "../headers/DataStructure/Graph/myGraphDFS.h"
 #include <iostream>
 #include <unordered_map>
 

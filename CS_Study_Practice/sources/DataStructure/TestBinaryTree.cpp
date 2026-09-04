@@ -1,4 +1,4 @@
-#include "myBinarytTree.h"
+#include "../headers/DataStructure/Tree/myBinarytTree.h"
 #include <iostream>
 #include <random>
 

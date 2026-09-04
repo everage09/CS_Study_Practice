@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Everage\개인\공부\CS\CS_Study_Practice\CS_Study_Practice\headers;C:\Users\Everage\개인\공부\CS\CS_Study_Practice\CS_Study_Practice\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,76 +124,76 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="8QueensProblem.cpp" />
-    <ClCompile Include="TestGraph.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestHeapSort.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestBinarySearchRec.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestBinaryTree.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestFactory.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestHeap.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestLinkedList.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestLRUCache.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestNRUCache.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestPTQ.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestQueue.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestQuickSort.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestSet.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="TestSingleton.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Singleton.h" />
-    <ClCompile Include="TestStack.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BinarySearchRecursive.h" />
-    <ClInclude Include="Factory.h" />
-    <ClInclude Include="GraphDistType.h" />
-    <ClInclude Include="myGraphBFS.h" />
-    <ClInclude Include="myGraphDFS.h" />
-    <ClInclude Include="myHeap.h" />
-    <ClInclude Include="myLinkedList.h" />
-    <ClInclude Include="LRUCache.h" />
-    <ClInclude Include="myMatrixGraph.h" />
-    <ClInclude Include="myPriorityQueue.h" />
-    <ClInclude Include="myQueue.h" />
-    <ClInclude Include="mySet.h" />
-    <ClInclude Include="myStack.h" />
-    <ClInclude Include="NodeType.h" />
-    <ClInclude Include="NRUCache.h" />
-    <ClInclude Include="QuickSort.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="myBinarytTree.h" />
+    <ClInclude Include="headers\Algorithm\Search\BinarySearchRecursive.h" />
+    <ClInclude Include="headers\Algorithm\Sorting\QuickSort.h" />
+    <ClInclude Include="headers\DataStructure\Graph\GraphDistType.h" />
+    <ClInclude Include="headers\DataStructure\Graph\myGraphBFS.h" />
+    <ClInclude Include="headers\DataStructure\Graph\myGraphDFS.h" />
+    <ClInclude Include="headers\DataStructure\Graph\myMatrixGraph.h" />
+    <ClInclude Include="headers\DataStructure\myLinkedList.h" />
+    <ClInclude Include="headers\DataStructure\myQueue.h" />
+    <ClInclude Include="headers\DataStructure\mySet.h" />
+    <ClInclude Include="headers\DataStructure\myStack.h" />
+    <ClInclude Include="headers\DataStructure\NodeType.h" />
+    <ClInclude Include="headers\DataStructure\Tree\myBinarytTree.h" />
+    <ClInclude Include="headers\DataStructure\Tree\myHeap.h" />
+    <ClInclude Include="headers\DataStructure\Tree\myPriorityQueue.h" />
+    <ClInclude Include="headers\DesginPattern\Factory.h" />
+    <ClInclude Include="headers\DesginPattern\Singleton.h" />
+    <ClInclude Include="headers\OS\LRUCache.h" />
+    <ClInclude Include="headers\OS\NRUCache.h" />
+    <ClInclude Include="headers\resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CS_Study_Practice.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Algorithm\Recursion\8QueensProblem.cpp" />
+    <ClCompile Include="sources\Algorithm\Search\TestBinarySearchRec.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\Algorithm\Sorting\TestHeapSort.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\Algorithm\Sorting\TestQuickSort.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestBinaryTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestGraph.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestHeap.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestPTQ.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestQueue.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestSet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DataStructure\TestStack.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DesginPattern\TestFactory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\DesginPattern\TestSingleton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\OS\TestLRUCache.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sources\OS\TestNRUCache.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

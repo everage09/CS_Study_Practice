@@ -1,6 +1,6 @@
 #pragma once
 #include <fstream>
-#include "MyQueue.h"
+#include "../myQueue.h"
 #include "myHeap.h"
 
 enum class OrderType {PreOrder, InOrder, PostOrder};

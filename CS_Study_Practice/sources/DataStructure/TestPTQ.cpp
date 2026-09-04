@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-#include "MyPriorityQueue.h"
+#include "../headers/DataStructure/tree/myPriorityQueue.h"
 
 using namespace std;
 

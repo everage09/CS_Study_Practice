@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-#include "QuickSort.h"
+#include "../headers/Algorithm/Sorting/QuickSort.h"
 using namespace std;
 
 int main()

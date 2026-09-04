@@ -1,7 +1,7 @@
 #pragma once
 #include "myMatrixGraph.h"
-#include "myStack.h"
-#include "myQueue.h"
+#include "../myStack.h"
+#include "../myQueue.h"
 #include <iostream>
 
 template <typename T>

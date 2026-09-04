@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "NRUCache.h"
+#include "../headers/OS/NRUCache.h"
 using namespace std;
 
 int main()

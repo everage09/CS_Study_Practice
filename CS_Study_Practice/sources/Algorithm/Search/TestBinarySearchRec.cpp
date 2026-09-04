@@ -1,6 +1,6 @@
 #include <iostream>
-#include "BinarySearchRecursive.h"
-#include "QuickSort.h"
+#include "../headers/Algorithm/Search/BinarySearchRecursive.h"
+#include "../headers/Algorithm/Sorting/QuickSort.h"
 
 using namespace std;
 

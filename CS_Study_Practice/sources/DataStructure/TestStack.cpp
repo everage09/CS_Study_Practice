@@ -1,5 +1,5 @@
 #include <iostream>
-#include "MyStack.h"
+#include "../headers/DataStructure/myStack.h"
 
 using namespace std;
 

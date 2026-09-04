@@ -1,7 +1,7 @@
 #pragma once
-#include "myQueue.h"
-#include "myStack.h"
-#include "myPriorityQueue.h"
+#include "../myQueue.h"
+#include "../myStack.h"
+#include "../headers/DataStructure/Tree/myPriorityQueue.h"
 #include <iostream>
 
 const int NULL_Dist = 0;
