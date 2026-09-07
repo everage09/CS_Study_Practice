@@ -148,7 +148,10 @@
     <ResourceCompile Include="CS_Study_Practice.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sources\Algorithm\HashTable\LongestConsecutiveSubsequenceProblem.cpp" />
+    <ClCompile Include="SkylineProblem.cpp" />
+    <ClCompile Include="sources\Algorithm\HashTable\LongestConsecutiveSubsequenceProblem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="sources\Algorithm\Recursion\8QueensProblem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

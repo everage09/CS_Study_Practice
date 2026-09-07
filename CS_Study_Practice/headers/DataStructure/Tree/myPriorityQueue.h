@@ -15,7 +15,7 @@ public:
 	inline bool IsEmpty() const {
 		return length == 0;
 	};
-
+	T Top() const { return hp.Top(); }
 private:
 	myHeap<T> hp;
 	int length;

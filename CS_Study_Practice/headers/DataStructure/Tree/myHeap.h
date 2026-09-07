@@ -7,6 +7,7 @@ struct myHeap
 	void ReHeapUp(int root, int bottom);
 	void HeapPop(T& Item);
 	void InsertItem(T item);
+	T Top() const { return elements[0]; }
 
 	T* elements;
 	int numElements;
