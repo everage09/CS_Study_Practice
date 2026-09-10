@@ -125,7 +125,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="headers\Algorithm\Search\BinarySearchRecursive.h" />
+    <ClInclude Include="headers\Algorithm\Sorting\BubbleSort.h" />
+    <ClInclude Include="headers\Algorithm\Sorting\HeapSort.h" />
+    <ClInclude Include="headers\Algorithm\Sorting\InsertionSort.h" />
+    <ClInclude Include="headers\Algorithm\Sorting\MergeSort.h" />
     <ClInclude Include="headers\Algorithm\Sorting\QuickSort.h" />
+    <ClInclude Include="headers\Algorithm\Sorting\SelectionSort.h" />
     <ClInclude Include="headers\DataStructure\Graph\GraphDistType.h" />
     <ClInclude Include="headers\DataStructure\Graph\myGraphBFS.h" />
     <ClInclude Include="headers\DataStructure\Graph\myGraphDFS.h" />
@@ -148,7 +153,9 @@
     <ResourceCompile Include="CS_Study_Practice.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SkylineProblem.cpp" />
+    <ClCompile Include="SkylineProblem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="sources\Algorithm\HashTable\LongestConsecutiveSubsequenceProblem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -161,8 +168,8 @@
     <ClCompile Include="sources\Algorithm\Sorting\TestHeapSort.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="sources\Algorithm\Sorting\TestQuickSort.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    <ClCompile Include="sources\Algorithm\Sorting\TestSort.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="sources\DataStructure\TestBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

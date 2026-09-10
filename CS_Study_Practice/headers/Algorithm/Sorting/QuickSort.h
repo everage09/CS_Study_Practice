@@ -1,7 +1,7 @@
 #pragma once
 
 template<typename T>
-void Split(T values[], int first, int last, int& splitpoint)
+void Split(T values[], int first, int last, int& splitpoint, bool reverse)
 {
 	// case of selecting first item of array to key value (pivot)
 	T key = values[first];
@@ -9,13 +9,27 @@ void Split(T values[], int first, int last, int& splitpoint)
 	int high = last;
 	while (low < high)
 	{
-		while (low < last && values[low] < key)
+		if (!reverse)
 		{
-			low++;
+			while (low < last && values[low] < key)
+			{
+				low++;
+			}
+			while (high > first && values[high] > key)
+			{
+				high--;
+			}
 		}
-		while (high > first && values[high] > key)
+		else
 		{
-			high--;
+			while (low < last && values[low] > key)
+			{
+				low++;
+			}
+			while (high > first && values[high] < key)
+			{
+				high--;
+			}
 		}
 		if (low < high)
 		{
@@ -32,13 +46,13 @@ void Split(T values[], int first, int last, int& splitpoint)
 }
 
 template <typename T>
-void QuickSort(T values[], int first, int last)
+void QuickSort(T values[], int first, int last, bool reverse = false)
 {
 	if (first < last)
 	{
 		int splitpoint;
-		Split(values, first, last, splitpoint);
-		QuickSort(values, first, splitpoint-1);
-		QuickSort(values, splitpoint+1, last);
+		Split(values, first, last, splitpoint, reverse);
+		QuickSort(values, first, splitpoint-1, reverse);
+		QuickSort(values, splitpoint+1, last, reverse);
 	}
 }

@@ -120,6 +120,21 @@
     <ClInclude Include="headers\resource.h">
       <Filter>리소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="headers\Algorithm\Sorting\HeapSort.h">
+      <Filter>헤더 파일\Algorithm\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Algorithm\Sorting\SelectionSort.h">
+      <Filter>헤더 파일\Algorithm\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Algorithm\Sorting\BubbleSort.h">
+      <Filter>헤더 파일\Algorithm\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Algorithm\Sorting\InsertionSort.h">
+      <Filter>헤더 파일\Algorithm\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Algorithm\Sorting\MergeSort.h">
+      <Filter>헤더 파일\Algorithm\Sorting</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CS_Study_Practice.rc">
@@ -172,7 +187,7 @@
     <ClCompile Include="sources\Algorithm\Sorting\TestHeapSort.cpp">
       <Filter>소스 파일\Algorithm\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="sources\Algorithm\Sorting\TestQuickSort.cpp">
+    <ClCompile Include="sources\Algorithm\Sorting\TestSort.cpp">
       <Filter>소스 파일\Algorithm\Sorting</Filter>
     </ClCompile>
     <ClCompile Include="sources\Algorithm\HashTable\LongestConsecutiveSubsequenceProblem.cpp">
